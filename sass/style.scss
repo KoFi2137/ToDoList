@@ -1,0 +1,53 @@
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.delateButton {
+    margin-left: 75%;
+    margin-top: 20px;
+    button {
+        background-color: rgb(255, 0, 0);
+        height: 40px;
+        width: auto;
+    }
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+.up {
+    height: 45px;
+    width: 60px;
+}
+#item {
+    height: 40px;
+    width: 500px
+}
+.divmap {
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    margin: auto;
+    margin-top: 10px;
+    p {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+            height: 25px;
+            padding: 2px 8px;
+            margin-right: 5px;
+        }
+        button:first-of-type {
+            background: red;
+        }
+        button:nth-of-type(2){
+            background: chartreuse;
+        }
+    }
+}

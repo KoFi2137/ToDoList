@@ -1,0 +1,72 @@
+#container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-top: 50px;
+}
+
+.delateButton {
+  margin-left: 75%;
+  margin-top: 20px;
+}
+
+.delateButton button {
+  background-color: red;
+  height: 40px;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.up {
+  height: 45px;
+  width: 60px;
+}
+
+#item {
+  height: 40px;
+  width: 500px;
+}
+
+.divmap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 580px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.divmap p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.divmap div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.divmap div button {
+  height: 25px;
+  padding: 2px 8px;
+  margin-right: 5px;
+}
+
+.divmap div button:first-of-type {
+  background: red;
+}
+
+.divmap div button:nth-of-type(2) {
+  background: chartreuse;
+}
+/*# sourceMappingURL=style.css.map */
