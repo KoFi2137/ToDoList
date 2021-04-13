@@ -20,6 +20,13 @@ h1 {
     height: 45px;
     width: 60px;
 }
+.edit {
+    height: 45px;
+    width: 60px;
+}
+.invisible {
+    display: none;
+} 
 #item {
     height: 40px;
     width: 500px
@@ -50,4 +57,16 @@ h1 {
             background: chartreuse;
         }
     }
+}
+.comfirm {
+    text-decoration: line-through;
+}
+.alert {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2rem;
 }
